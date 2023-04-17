@@ -1,0 +1,13 @@
+.main ul{
+    display:flex;
+    justify-content:center;
+    /* border: 1px solid black; */
+    list-style: none;
+}
+.main ul li{
+    /* border: 1px solid black; */
+    margin-left: 5px;
+    padding-right: 50px;
+    
+}
+
