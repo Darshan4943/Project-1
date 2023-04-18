@@ -5,10 +5,10 @@
    height: 400px;
    border: #FF6263 solid;
 }
-h1{
+.h1{
     color: #FF6263;
 }
-h2{
+.h2{
     color: black;
 }
 .text1{
@@ -33,6 +33,7 @@ h2{
    
 }
 .t1{
+    color: #FF6263;
     margin: 20px;
 }
 ul li::marker{
