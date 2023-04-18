@@ -1,0 +1,31 @@
+
+.card{
+    overflow: hidden;
+    box-shadow: 0 2px 20px gray;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition:transform 200ms ease-in ;
+}
+img{
+    height: 12rem;
+    object-fit: cover;
+    width: 100%;  
+    border: #FF6263 solid 
+    
+}
+.cardTitle{
+    padding: 1rem;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    
+}
+ .card.cardBtn:hover{
+    
+color: blue;
+}
