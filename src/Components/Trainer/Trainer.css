@@ -1,0 +1,35 @@
+.mainn {
+  
+  padding: 0;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30517.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.trainers-section {
+    
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trainer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  @media (max-width: 768px) {
+    .trainers-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
