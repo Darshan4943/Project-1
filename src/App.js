@@ -1,8 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Routes, Route} from 'react-router-dom'
+
 import Home from './Components/Home/Home'
 import { Registration } from './Components/Login/Login';
+
+
 import { AboutUs } from './Components/Aboutus/AboutUs';
 import { Navbar } from './Components/Navbar/Navbar';
 import { Classes } from './Components/Classes/Classes';
