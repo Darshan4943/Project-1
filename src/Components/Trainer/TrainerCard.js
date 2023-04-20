@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '@mui/material/Button'
 import styles from './trainercard.module.css'
 
@@ -11,7 +12,7 @@ export function Card(props){
           <h2 className={styles.cardTitle}>{props.title}</h2>
 
         </div>
-        <Button  className={styles.cardBtn} style={{ backgroundColor:"#FF6263"}} variant="contained"  >Join</Button>
+        <Link to='/joinUs'><Button  className={styles.cardBtn} style={{ backgroundColor:"#FF6263"}} variant="contained">Join</Button></Link>
   
       </div>
     )
