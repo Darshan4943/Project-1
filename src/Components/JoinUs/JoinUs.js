@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+ import React, { Fragment, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './JoinUs.module.css'
 
@@ -114,14 +114,14 @@ export default function JoinUs() {
         <Fragment>
             {
                 alreadyHave ?
-                    <div className={styles.container}>
+                    <div className={styles.container} >
 
                         <div className={styles.details} >
-                            <form>
+                            <form >
                                 <h1>Login Here</h1>
 
                                 <div className={styles.input}>
-                                    <div >
+                                    <div  className={styles.data} >
                                         <label htmlFor="email"  >Email:</label>
                                         <input value={loginEmail}
                                             name='email' type='email'
@@ -131,7 +131,7 @@ export default function JoinUs() {
 
                                         </input>
                                     </div>
-                                    <div>
+                                    <div className={styles.data} >
                                         <label htmlFor="password" >Password:</label>
                                         <input value={loginPassword}
                                             name='password' type='password'
@@ -184,10 +184,11 @@ export default function JoinUs() {
                                             required  >
 
                                         </input>
-                                        {
+                                       
+                                    </div>
+                                    {
                                             emailError ? <p className={styles.err}>Enter the valid Email</p> : ''
                                         }
-                                    </div>
                                     <div className={styles.data}>
                                         <label htmlFor="mobile" >Mobile:</label>
                                         <input value={mobile}
@@ -207,10 +208,11 @@ export default function JoinUs() {
                                             required >
 
                                         </input>
-                                        {
+                                       
+                                    </div>
+                                    {
                                             passwordError ? <p className={styles.err}>Enter the valid Password:atleast one digit,upper,lower and not spaces:min-6 characters</p> : ''
                                         }
-                                    </div>
                                 </div>
                                 {
                                     error ? <p id={styles.fieldsWarn}>All the Input fields are mandatory</p> : ''

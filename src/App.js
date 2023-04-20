@@ -1,4 +1,4 @@
-import './App.css'
+import styles from './App.module.css'
 import { Routes, Route} from 'react-router-dom'
 import Home from './Components/Home/Home'
 import  Navbar  from './Components/Navbar/Navbar';
@@ -10,7 +10,7 @@ import Trainer from './Components/Trainer/Trainer';
 import Pricing from './Components/Pricing/Pricing';
 function App() {
   return (
-    <div >
+    <div className={styles.main}>
         
         <Navbar/>
         <Routes>

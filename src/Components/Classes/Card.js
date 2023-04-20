@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@mui/material/Button'
+import { Link } from 'react-router-dom'
 import styles from './card.module.css'
 
 
@@ -8,10 +9,11 @@ export function Card(props){
       <div className={styles.card}>
         <div className={styles.cardBody}>
           <img className={styles.img} src={props.img}/>
-          <h2 className={styles.cardTitle}>{props.title}</h2>
+          <h3 className={styles.cardTitle}>{props.title}</h3>
 
         </div>
-        <Button  className={styles.cardBtn} style={{ backgroundColor:"#FF6263"}} variant="contained"  >view</Button>
+        <Link to='/pricing' className={styles.cardBtn} > <h3>View</h3></Link>
+
   
       </div>
     )

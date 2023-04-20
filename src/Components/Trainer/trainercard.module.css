@@ -1,12 +1,13 @@
 .card{
    
     border-radius: 1rem;
-    margin-top: 5px;
+    margin-top: 1rem;
+   margin-bottom: 2rem;
     overflow: hidden;
     box-shadow: 0 2px 20px gray;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   
     cursor: pointer;
     transition:transform 200ms ease-in ;
     background-color: rgb(217, 209, 209);
@@ -21,16 +22,23 @@
     
     
 }
+
+.h1{
+    display: flex;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   
+    
+}
 .cardTitle{
  display: flex;
  justify-content: center;
+ align-items: center;
 }
 
 .card:hover{
     transform: scale(1.02);
     
-}
- .card.cardBtn:hover{
-    
-color: blue;
 }
