@@ -1,4 +1,4 @@
-/* Mobile-first styles */
+
 .body {
   
   padding: 0;
@@ -9,6 +9,7 @@
 }
 
 .container {
+  
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -43,6 +44,7 @@
   font-size: 1rem;
   color: rgb(68, 16, 16);
   margin: 0 2rem 1rem;
+  width: 50%;
 }
 
 .ctaBtn {
@@ -57,7 +59,7 @@
   text-align: center;
   width: 20%;
   max-width: 200px;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .ctaBtn:hover {
@@ -65,7 +67,7 @@
 }
 
 /* Media queries */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .main {
     width: 80%;
     margin: 0 auto;
@@ -82,7 +84,7 @@
   }
 
   .textContainer {
-    width: 50%;
+    width: 70%;
     text-align: left;
     margin-left: 2rem;
   }

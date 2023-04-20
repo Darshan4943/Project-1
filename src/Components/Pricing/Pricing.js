@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './Pricing.module.css'
 
 export default function Pricing() {
@@ -17,7 +18,7 @@ export default function Pricing() {
             <p>-- 1 Day Pass</p>
             <p>-- Free Gym Access</p>
             <p>-- 24 Hour Access</p>
-            <button>GET STARTED</button>
+            <Link to='/joinUs'><button className={styles.btn}> Buy</button></Link>
           </div>
 
           <div className={`${styles.pass_box} ${styles.right_box}`}>
@@ -31,7 +32,7 @@ export default function Pricing() {
             <p>-- Free Gym Access</p>
             <p>-- 1 Group Class Included</p>
             <p>-- 24 Hour Access</p>
-            <button>GET STARTED</button>
+            <Link to='/joinUs'><button className={styles.btnn}> Buy</button></Link>
           </div>
 
         </div>

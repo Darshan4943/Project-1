@@ -1,50 +1,63 @@
 body{
-    background-color: beige;
-    margin: -1.5rem;
+    margin: -1rem;
 }
-.image1{
+.video1{
     float: left;
-    margin: 20px;
-   width: 350px;
-   height: 400px;
-   border: #FF6263 solid;
+    
+   
 }
-.h1{
+.box1{
+    
+    margin-left :25rem
+}
+.box2{
+    margin-right: 25rem;
+}
+.video2{
+    float: right;
+   
+}
+.h1{ text-align: justify;
     color: #FF6263;
+    margin: 25px;
+    
 }
-.h2{
-    color: black;
+.h2{ text-align: justify;
+    color: rgb(255, 255, 255);
+    
+    
 }
 .text1{
     text-align: justify;
     font-size: 20px;
-    margin-left: 5rem;
-}
-
-
-
-.image2{
-    float: right;
     margin: 25px;
-   width: 350px;
-   height: 400px; 
-   border: #FF6263 solid 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
+.main{
+    margin-left: 4rem;
+    margin-right: 5rem;
+}
+
+
+
 
 .k{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    background-image: url('./bckgrndimg1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+   
    
 }
 .t1{
     color: #FF6263;
     margin: 20px;
 }
-
 ul li::marker{
     color: #FF6263;
     font-size: 1.5em;

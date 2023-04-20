@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark,faBars} from '@fortawesome/free-solid-svg-icons';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import styles from'./Navbar.module.css'
 
 
@@ -16,7 +17,9 @@ const Header = () => {
     <div>
         <header className={styles.header}>
 
-          <h1><Link to='/'>Gold </Link></h1>
+            <div className={styles.logo}  ><Link to ='/'>
+                <FontAwesomeIcon icon={faDumbbell} size="2x" style={{color:"red"}} /> </Link>
+            </div>
           
             <ul className={isMenuOpen ? styles.listresponsive : styles.lists}>
 
@@ -24,7 +27,7 @@ const Header = () => {
               <li><Link to='/classes'>Classes</Link></li>
               <li><Link to='/trainer'>Trainer</Link></li> 
               <li><Link to='/pricing'>Pricing</Link></li>
-              <li ><Link to='/joinUs' style={{color:"red",fontSize:"20px"}}>Join Us</Link></li>
+              <li ><Link to='/joinUs' style={{color:"red",fontSize:"24px"}}>Join Us</Link></li>
 
             </ul>
         

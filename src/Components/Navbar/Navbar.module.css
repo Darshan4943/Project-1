@@ -6,10 +6,11 @@
     background-color: #302e2e;
    
   }
-  .header h1{
+  .logo{
     font-size: 3rem;
     margin-left: 6rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+   
   }
 
 .lists{
@@ -18,7 +19,8 @@
 }
 .header ul li{
   margin-right: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  font-size: 24px;
 
 }
 .header ul li:last-child{
@@ -36,7 +38,7 @@ display: none;
   color: #fff;
   text-decoration: none;
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .menu {
       position: static;
       flex-direction: row;

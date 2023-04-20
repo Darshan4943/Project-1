@@ -60,21 +60,16 @@
 }
 .pass_box > p{
     margin: 5px 0;
-}
-.pass_box > button {
-    position: absolute;
-    bottom: 10px;
-    width: 50%;
-    margin-left:2rem ;
-    padding: 10px 0;
-    outline: none;
-    border: none;
-    cursor: pointer;
+    
 }
 
+  
+
 .left_box{
+    
     background-color: rgb(24, 24, 24);
     height: 90%;
+   
 }
 .left_box > div span{
     color: white;
@@ -88,14 +83,26 @@
     background-color: white;
     margin-left:5rem ;
 }
-.right_box button{
+.btnn{
     background-color: green;
-    color: white;
+    color: rgb(160, 10, 10);
+    width: 100px;
+    height: 50px;
 }
+.btn{
+   
+    background-color: white;
+    color: rgb(150, 17, 17);
+    padding: 20px;
+   
+    
+    
+}
+
 
 .content_part{
     margin-bottom: 20px;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 .content_part h4{
     color: gray;
@@ -122,3 +129,50 @@
     color: green;
     font-size: 16px;
 }
+@media (max-width: 1200px) {
+    .pricing_container {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    
+    .pass_part {
+      flex-direction: column;
+      margin: 0;
+      
+    }
+    .btn, .btnn {
+        width: auto;
+        max-width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    
+    .pass_box {
+      width: 50%;
+      height: 50%;
+      margin: 50px 0;
+    }
+    
+    .right_box {
+      margin-left: 0;
+    }
+    
+    .content_part {
+      margin: 20px 0;
+      margin-left: 0;
+    }
+    .btn {
+     
+        width: 5%;
+       
+      }
+      .btnn {
+        
+        width: 5%;
+        
+      }
+    
+    
+  }
+  

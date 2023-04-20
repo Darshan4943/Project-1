@@ -1,32 +1,11 @@
-.mainn {
-  
-  padding: 0;
-  height: 100vh;
-  background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30517.jpg");
-  background-size: cover;
-  background-position: center;
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(12rem,16rem));
+  gap: 6rem;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/free-photo/solid-painted-concrete-wall-textured-backdrop_53876-129479.jpg?w=740&t=st=1681982365~exp=1681982965~hmac=7e044d16b3bf141a8fdf74237f3b66cf10af40af75b09ed47947c5a40fa0ccbe);
 }
 
-.trainers-section {
-    
-    color: #fff;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .trainers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .trainer img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-  }
   
   @media (max-width: 768px) {
     .trainers-grid {
