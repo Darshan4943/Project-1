@@ -4,13 +4,7 @@
     
    
 }
-.box1{
-    
-    margin-left :25rem
-}
-.box2{
-    margin-right: 25rem;
-}
+
 .video2{
     float: right;
    
@@ -28,9 +22,9 @@
 .text1{
     text-align: justify;
     font-size: 20px;
-    margin: 25px;
-    color: rgb(3, 3, 3);
-    font-size: 20px;
+    
+    color: rgb(244, 238, 238);
+    
 }
 .main{
     margin-left: 4rem;
@@ -43,7 +37,7 @@
 .k{
     display: flex;
     flex-direction: column;
-    background-image: url('./bckgrndimg1.jpg');
+    background-image: url('./imagess.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
