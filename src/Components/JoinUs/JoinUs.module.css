@@ -5,7 +5,7 @@
     background-color: rgb(80, 83, 84);
     
     margin: -1.5rem;
-    
+   
 
    
 }
@@ -31,6 +31,13 @@
     min-width: 30%;
    
 
+}
+.home {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    min-height: 60vh;
+    
 }
 
 .data {
@@ -78,6 +85,7 @@ button {
     text-align: center;
     padding: 50px;
     margin: 20px;
+    
 
 }
 
